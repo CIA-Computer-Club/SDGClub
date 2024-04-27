@@ -2,17 +2,17 @@ import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { HamburgerMenuIcon } from '@radix-ui/react-icons';
+import { Menu } from 'lucide-react';
 import Link from '@/components/Link';
 
 export default function MenuButton(){
+
     return(
-      <DropdownMenu>
-        <DropdownMenuTrigger><HamburgerMenuIcon /></DropdownMenuTrigger>
+      <div className="text-white left-0 top-0">
+`      <DropdownMenu>
+        <DropdownMenuTrigger><Menu size={40} color="#ffffff" strokeWidth={3} absoluteStrokeWidth /></DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem><Link href="/about">About Us</Link></DropdownMenuItem>
           <DropdownMenuItem><Link href="/goals">Our Goals</Link></DropdownMenuItem>
@@ -20,5 +20,7 @@ export default function MenuButton(){
           <DropdownMenuItem><Link href="/contact">Contact</Link></DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
+`
+      </div>
     )
 }

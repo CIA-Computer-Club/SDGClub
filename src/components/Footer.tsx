@@ -1,8 +1,10 @@
 import Link from '@/components/Link';
+import Image from '@/components/Image';
 import { Button } from '@/components/ui/button';
+
 export default function Footer(){
     return(
-        <div className=''>
+        <div className='relative w-screen h-screen text-white'>
             <div className='absolute bottom-20 left-40'>
                 <p className='text-4xl'>Get in touch</p>
                 <p className=''>Email: theanlay.se@ciaschool.edu.kh </p>
@@ -12,6 +14,8 @@ export default function Footer(){
                     <Link href="mailto:theanlay.se@ciaschool.edu.kh">Email Me</Link>
                 </Button>
             </div>
+
         </div>
+        
     )
 }
