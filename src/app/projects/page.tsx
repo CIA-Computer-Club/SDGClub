@@ -1,8 +1,12 @@
 import MenuButton from "@/components/MenuButton";
-export default function Projects() {
+import Image from "@/components/Image"
+
+export default function Project() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="mx-auto w-full"><MenuButton></MenuButton></div>
+    <main className="flex flex-col items-center justify-between w-screen min-h-screen">
+      <div className="relative w-screen h-screen">
+        <MenuButton></MenuButton>
+        </div>
     </main>
   );
 }
