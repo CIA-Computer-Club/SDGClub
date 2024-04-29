@@ -1,9 +1,9 @@
 import MenuButton from "@/components/MenuButton";
 export default function Goals() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 text-left">
+    <main className="flex min-h-screen flex-col items-center text-left">
       <div className="mx-auto w-full"><MenuButton></MenuButton></div>
-        <div className="pl-20">
+        <div className="ps-40 pl-20">
             <p className="text-2xl pb-4">What are SDGs?</p>
             <p className="pt-4 pb-4">SDGs stand for Sustainable Development Goals. There are 17 global goals set by the United Nations General Assembly in 2015 to be achieved by 2030. These goals address different social, environmental, and economic challenges such as poverty, climate change, inequality, and sustainable development. </p>
             

@@ -12,7 +12,7 @@ export default function MenuButton(){
     return(
       <div className="text-white left-0 top-0">
 `      <DropdownMenu>
-        <DropdownMenuTrigger><Menu size={40} color="#ffffff" strokeWidth={3} absoluteStrokeWidth /></DropdownMenuTrigger>
+        <DropdownMenuTrigger><Menu size={80} color="#ffffff" strokeWidth={3} absoluteStrokeWidth /></DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem><Link href="/about">About Us</Link></DropdownMenuItem>
           <DropdownMenuItem><Link href="/goals">Our Goals</Link></DropdownMenuItem>

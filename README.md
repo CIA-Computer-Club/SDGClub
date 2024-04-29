@@ -3,7 +3,7 @@ Simple website built in NextJS
 
 ## TODO
 - [x] Fix on mobile
-- [] Finish ProfileCard Component
+- [x] Finish ProfileCard Component
 - [x] Finish Contact,
 - [x] Intergrate NodeMailer
 - [x] Style and setup schema for email validation
@@ -13,11 +13,6 @@ Simple website built in NextJS
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# ora
+cp .env.example .env
 pnpm dev
-# or
-bun dev
 ```

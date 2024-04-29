@@ -15,8 +15,6 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input";
 import { sendEmail } from '@/lib/send-email';
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircle, CircleCheckBig } from "lucide-react"
 
 const formSchema = z.object({
   name: z
@@ -48,9 +46,7 @@ export default function ContactForm(){
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-
     sendEmail(values);
-
   } 
 
   return(
@@ -99,7 +95,7 @@ export default function ContactForm(){
         </form>
       </Form>
 
-      </div>
-      
+      </div>   
   )
+
 }
