@@ -2,6 +2,7 @@ import MenuButton from "@/components/MenuButton";
 import Footer from "@/components/Footer";
 import Image from "@/components/Image";
 import Link from "@/components/Link";
+import CircleButton from "@/components/CircleButton";
 
 export default function Home() {
   return (
@@ -17,15 +18,18 @@ export default function Home() {
       </div>
 
       {/*ABOUT US*/}
-      <div className="bg-inherit">
-      <div className="">
-            <p className="text-8xl text-white">BALSS</p>
-            <p className="text-2xl text-white">2023-2024</p>
-          </div>
+      <div className="bg-inherit p-8 flex flex-row">
+        <div className="w-3/4">
+            <p className="text-2xl text-black text-center">We are a team of high school students dedicated to fostering sustainable development and achieving the United Nations Sustainable Development Goals.</p>
+        </div>
+        <div className="">
+          <Link href={"/about"}><CircleButton description="About Us"></CircleButton></Link>
+        </div>
+
       </div>      
       
       {/*CLICK ME*/}
-      <div className="bg-inherit">
+      <div className="bg-inherit p-8">
         <div className="flex flex-row">
           <Image
             src={"/assets/goals.jpg"}
@@ -35,7 +39,10 @@ export default function Home() {
           >
 
           </Image>
-          <p className="pt-20">CLICK ME</p>
+          <div className="pt-32">
+            <Link href={"/about"}><CircleButton description="Click Me"></CircleButton></Link>
+          </div>
+
         </div>
       </div>
 
@@ -68,11 +75,8 @@ export default function Home() {
       </div>      
 
 
-
-      <div className="bg-[url('/assets/mountain.jpg')]">
-          <div className=""><Footer></Footer></div>
-
-      </div>
+      <div className=""><Footer></Footer></div>
     </main>
   );
 }
+  
