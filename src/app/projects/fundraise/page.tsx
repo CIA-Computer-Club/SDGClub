@@ -35,7 +35,6 @@ export default function Fundraiser() {
             height="500"
             alt="tree"
           ></Image>
-
         </div>
         </div>
     </main>

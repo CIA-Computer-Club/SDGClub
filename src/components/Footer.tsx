@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <div className='relative w-screen h-screen text-black'>
             <div className='absolute bottom-12 left-32 h-16 w-42'>
-                <p className='text-4xl'>Get in touch</p>
+                <p className='text-4xl sm:text-1xl'>Get in touch</p>
                 <p className=''>Email: theanlay.se@ciaschool.edu.kh </p>
             </div>
             <div className='absolute bottom-12 right-32 h-16 w-16'>

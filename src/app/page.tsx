@@ -10,9 +10,17 @@ export default function Home() {
       <div className="bg-[url('/assets/front.jpg')]">
         <div className="relative w-screen h-screen">
           <MenuButton></MenuButton>
-          <div className="absolute pt-40 ps-20">
-            <p className="text-8xl text-white">SDG Startup Club</p>
-            <p className="text-2xl text-white">2023-2024</p>
+          <div className="absolute pt-40 ps-20 flex flex-row">
+            <div>
+              <p className="text-8xl text-white">SDG Startup Club</p>
+              <p className="text-2xl text-white">2023-2024</p>
+            </div>
+            <Image
+             src="/assets/logo.png"
+             width="200"
+             height="100"
+             alt="cum"
+            ></Image>
           </div>
         </div>  
       </div>
@@ -30,7 +38,7 @@ export default function Home() {
       
       {/*CLICK ME*/}
       <div className="bg-inherit p-8">
-        <div className="flex flex-row">
+        <div className="flex flex-row w-3/4">
           <Image
             src={"/assets/goals.jpg"}
             alt={"goals"}
