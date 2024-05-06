@@ -18,6 +18,8 @@ export default function MenuButton(){
           <DropdownMenuItem><Link href="/goals">Our Goals</Link></DropdownMenuItem>
           <DropdownMenuItem><Link href="/projects">Projects</Link></DropdownMenuItem>
           <DropdownMenuItem><Link href="/contact">Contact</Link></DropdownMenuItem>
+          <DropdownMenuItem><Link href="https://github.com/CIA-Computer-Club/SDGClub" target="_blank">Credits</Link></DropdownMenuItem>
+
         </DropdownMenuContent>
       </DropdownMenu>
 `
